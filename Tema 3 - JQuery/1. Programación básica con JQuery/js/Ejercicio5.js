@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    $("#parrafo").mouseenter(function () {
+    $("#parrafo").mouseover(function () {
         $(this).addClass("grande");
     });
 
-    $("#parrafo").mouseleave(function () {
+    $("#parrafo").mouseout(function () {
         $(this).removeClass("grande");
     });
 });

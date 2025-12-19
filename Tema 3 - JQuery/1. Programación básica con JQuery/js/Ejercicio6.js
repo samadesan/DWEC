@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $("#imagen").fadeOut(2000, function () {
-        $(this).slideDown(3000, function () {
-            $(this).slideUp(1000);
+    $("#foto").fadeOut(2000, function () {
+        $("#foto").slideDown(3000, function () {
+            $("#foto").slideUp(1000);
         });
     });
 });
